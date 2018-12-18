@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Level Up Blog',
     description: 'A new blog!',
-    author: 'AllenAnthes'
+    author: 'AllenAnthes',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -40,5 +40,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
+    'gatsby-plugin-netlify',
   ],
 };
